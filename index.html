@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>BT-JS-5</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- BT1: QUẢN LÝ TUYỂN SINH -->
+  <br>
+  <br>
+  <div class="form-group container">
+    <h4> BT1: QUẢN LÝ TUYỂN SINH</h4>
+    <div class="form-group d-flex mt-3">
+      <input placeholder="Điểm chuẩn" type="number" class="form-control w-25 mr-3" id="diemChuan">
+      <select class="mr-2 form-control" name="" id="khuVuc">
+        <option value="X">Chọn khu vực</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+      </select>
+      <select class="form-control" name="" id="doiTuong">
+        <option value="0">Chọn đối tượng</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+
+
+
+    </div>
+    <div class="form-group d-flex">
+      <input placeholder=" Điểm môn thứ nhất" type="number" class="form-control w-25 mr-3" id="diemMon1">
+      <input placeholder="Điểm môn thứ hai" type="number" class="form-control w-25 mr-3" id="diemMon2">
+      <input placeholder="Điểm môn thứ ba" type="number" class="form-control w-25" id="diemMon3">
+
+
+    </div>
+    <br>
+    <br>
+    <button id="btnKetQua" class="btn btn-success">KẾT QUẢ</button>
+
+    <br>
+    <br>
+    <div class="mt-2 alert alert-success">
+      <span id="kqBt1"></span>
+    </div>
+
+
+
+
+  </div>
+  <br>
+  <br>
+  <hr>
+  <!-- BT2: TÍNH TIỀN ĐIỆN -->
+  <div class="form-group container">
+    <h4>BT2: TÍNH TIỀN ĐIỆN</h4>
+    <div class="form-group d-flex">
+      <input type="text" placeholder="Nhập họ tên" class="form-control w-25 mr-3" id="hoTen">
+      <input type="number" placeholder="Nhập số Kw" class="form-control w-25" id="soKw">
+    </div>
+    <br>
+    <br>
+    <button id="btnTienDien" class="btn btn-success">TÍNH TIỀN ĐIỆN</button>
+    <br>
+    <br>
+    <div class="mt-2 alert alert-success">
+      <span id="kqBt2"></span>
+    </div>
+    
+
+
+  </div>
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./js/style.js"></script>
+</body>
+
+</html>
